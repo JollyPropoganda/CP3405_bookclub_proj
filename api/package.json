@@ -4,7 +4,7 @@
   "description": "Backend server for Screen 4 using Express and JSON",
   "main": "server.js",
   "scripts": {
-    "start": "npm run dev",
+    "start": "node server.js",
     "server": "nodemon server.js",
     "watch": "python ../notes/watch_json.py",
     "dev": "concurrently \"npm run server\" \"npm run watch\"",
