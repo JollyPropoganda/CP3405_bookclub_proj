@@ -13,6 +13,8 @@ body {
   flex-direction: column;
   height: 100vh;
   background: #1c1c1c;
+  width: 100%;
+  max-width: 600px;
 }
 
 .comments-list {
