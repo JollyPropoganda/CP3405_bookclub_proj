@@ -7,7 +7,8 @@
     "start": "npm run dev",
     "server": "nodemon server.js",
     "watch": "python ../notes/watch_json.py",
-    "dev": "chcp 65001 > NUL && concurrently \"npm run server\" \"npm run watch\""
+    "dev": "concurrently \"npm run server\" \"npm run watch\"",    // Cross-platform
+    "dev:win": "chcp 65001 > NUL && npm run dev"
   },
   "author": "Jihun",
   "license": "MIT",
