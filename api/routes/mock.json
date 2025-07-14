@@ -1,0 +1,405 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Jihun",
+      "following": [
+        "Jordan",
+        "Alice"
+      ],
+      "followers": [
+        "Jordan",
+        "Alice"
+      ],
+      "total_followers": 2,
+      "total_following": 2,
+      "Password": "Jihun",
+      "Email": "J1hun@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "Alice",
+      "following": [
+        "Jordan",
+        "Jihun"
+      ],
+      "followers": [
+        "Jordan",
+        "Jihun"
+      ],
+      "total_followers": 2,
+      "total_following": 2,
+      "Password": "Alice1",
+      "Email": "A1ice@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "Jordan",
+      "following": [
+        "Jihun",
+        "Alice"
+      ],
+      "followers": [
+        "Alice",
+        "Jihun"
+      ],
+      "total_followers": 2,
+      "total_following": 2,
+      "Password": "Jordan214",
+      "Email": "Jordanlamweijie@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "tribbie",
+      "following": [],
+      "followers": [],
+      "total_followers": 0,
+      "total_following": 0,
+      "Password": "alyssa214",
+      "Email": "tribbie@gmail.com"
+    }
+  ],
+  "notes": [
+    {
+      "noteId": "1",
+      "userId": "2",
+      "bookId": "7",
+      "content": "[comment deleted by system: invalid user]",
+      "createdAt": "11-06-2025",
+      "replies": [
+        {
+          "replyId": "6",
+          "userId": "2",
+          "bookId": "7",
+          "content": "",
+          "createdAt": "15-06-2025"
+        },
+        {
+          "replyId": "6",
+          "userId": "2",
+          "bookId": "7",
+          "content": "",
+          "createdAt": "15-06-2025"
+        }
+      ]
+    },
+    {
+      "noteId": "2",
+      "userId": "1",
+      "bookId": "2",
+      "content": "biatch",
+      "createdAt": "12-06-2025",
+      "replies": [
+        {
+          "id": "2",
+          "replyId": "6",
+          "userId": "2",
+          "bookId": "2",
+          "content": "fook u",
+          "createdAt": "15-06-2025"
+        }
+      ]
+    },
+    {
+      "noteId": "3",
+      "userId": "1",
+      "bookId": "4",
+      "content": "tis a awesome book!! Daebak",
+      "createdAt": "12-06-2025",
+      "replies": [
+        {
+          "id": "3",
+          "replyId": "8",
+          "userId": "2",
+          "bookId": "4",
+          "content": "putanginamo",
+          "createdAt": "17-06-2025"
+        },
+        {
+          "id": "3",
+          "replyId": "8",
+          "userId": "1",
+          "bookId": "4",
+          "content": "tis comment",
+          "createdAt": "17-06-2025"
+        }
+      ]
+    },
+    {
+      "noteId": "4",
+      "userId": "2",
+      "bookId": "5",
+      "content": "kokok",
+      "createdAt": "15-06-2025",
+      "replies": [
+        {
+          "id": "4",
+          "replyId": "8",
+          "userId": "1",
+          "bookId": "5",
+          "content": "yo yo whts up",
+          "createdAt": "17-06-2025"
+        }
+      ]
+    },
+    {
+      "noteId": "5",
+      "userId": "2",
+      "bookId": "7",
+      "content": "okok",
+      "createdAt": "15-06-2025",
+      "replies": [
+        {
+          "id": "5",
+          "replyId": "8",
+          "userId": "1",
+          "bookId": "7",
+          "content": "this is a random comment",
+          "createdAt": "17-06-2025"
+        }
+      ]
+    },
+    {
+      "noteId": "6",
+      "userId": "2",
+      "bookId": "2",
+      "content": "u a shibal",
+      "createdAt": "15-06-2025",
+      "replies": [
+        {
+          "id": "6",
+          "replyId": "7",
+          "userId": "2",
+          "bookId": "2",
+          "content": "okok",
+          "createdAt": "15-06-2025"
+        },
+        {
+          "id": "6",
+          "replyId": "8",
+          "userId": "2",
+          "bookId": "2",
+          "content": "add on haha",
+          "createdAt": "15-06-2025"
+        },
+        {
+          "id": "6",
+          "replyId": "9",
+          "userId": "1",
+          "bookId": "2",
+          "content": "okokok",
+          "createdAt": "17-06-2025"
+        },
+        {
+          "id": "6",
+          "replyId": "10",
+          "userId": "1",
+          "bookId": "2",
+          "content": "okok",
+          "createdAt": "03-07-2025"
+        }
+      ]
+    },
+    {
+      "noteId": "7",
+      "userId": "2",
+      "bookId": "2",
+      "content": "hmm thats weird",
+      "createdAt": "15-06-2025",
+      "replies": [
+        {
+          "id": "7",
+          "replyId": "8",
+          "userId": "2",
+          "bookId": "2",
+          "content": "yes lmao",
+          "createdAt": "15-06-2025"
+        },
+        {
+          "id": "7",
+          "replyId": "8",
+          "userId": "2",
+          "bookId": "2",
+          "content": "common eat poopy",
+          "createdAt": "15-06-2025"
+        },
+        {
+          "id": "7",
+          "replyId": "8",
+          "userId": "1",
+          "bookId": "2",
+          "content": "whatsup",
+          "createdAt": "17-06-2025"
+        },
+        {
+          "id": "7",
+          "replyId": "9",
+          "userId": "1",
+          "bookId": "2",
+          "content": "kk",
+          "createdAt": "18-06-2025"
+        }
+      ]
+    },
+    {
+      "noteId": "8",
+      "userId": "1",
+      "bookId": "5",
+      "content": "you funny",
+      "createdAt": "17-06-2025",
+      "replies": [
+        {
+          "id": "8",
+          "replyId": "9",
+          "userId": "1",
+          "bookId": "5",
+          "content": "you funny haha",
+          "createdAt": "18-06-2025"
+        }
+      ]
+    },
+    {
+      "noteId": "9",
+      "userId": "3",
+      "bookId": "7",
+      "content": "well done u bichts",
+      "createdAt": "03-07-2025",
+      "replies": [
+        {
+          "id": "9",
+          "replyId": "10",
+          "userId": "2",
+          "bookId": "7",
+          "content": "test te",
+          "createdAt": "04-07-2025"
+        },
+        {
+          "id": "9",
+          "replyId": "12",
+          "userId": "2",
+          "bookId": "7",
+          "content": "fickle matter",
+          "createdAt": "04-07-2025"
+        }
+      ]
+    },
+    {
+      "noteId": "10",
+      "userId": "2",
+      "bookId": "",
+      "content": "lmao",
+      "createdAt": "04-07-2025"
+    },
+    {
+      "noteId": "11",
+      "userId": "2",
+      "bookId": "",
+      "content": "lmao",
+      "createdAt": "04-07-2025"
+    },
+    {
+      "noteId": "12",
+      "userId": "2",
+      "bookId": "5",
+      "content": "tis but fikle matter",
+      "createdAt": "04-07-2025",
+      "replies": [
+        {
+          "id": "12",
+          "replyId": "16",
+          "userId": "2",
+          "bookId": "5",
+          "content": "waya doin",
+          "createdAt": "04-07-2025"
+        }
+      ]
+    },
+    {
+      "noteId": "13",
+      "userId": "2",
+      "bookId": "5",
+      "content": "okok",
+      "createdAt": "04-07-2025"
+    },
+    {
+      "noteId": "14",
+      "userId": "2",
+      "bookId": "5",
+      "content": "okok",
+      "createdAt": "04-07-2025"
+    },
+    {
+      "noteId": "15",
+      "userId": "2",
+      "bookId": "5",
+      "content": "edit dis ",
+      "createdAt": "04-07-2025"
+    },
+    {
+      "noteId": "16",
+      "userId": "2",
+      "bookId": "",
+      "content": "tis a small ting",
+      "createdAt": "04-07-2025"
+    },
+    {
+      "noteId": "17",
+      "userId": "2",
+      "bookId": "5",
+      "content": "kiss me ass",
+      "createdAt": "04-07-2025"
+    },
+    {
+      "noteId": "18",
+      "userId": "2",
+      "bookId": "7",
+      "content": "tis crape",
+      "createdAt": "04-07-2025"
+    },
+    {
+      "noteId": "19",
+      "userId": "2",
+      "bookId": "2",
+      "content": "check this for verification",
+      "createdAt": "04-07-2025",
+      "replies": [
+        {
+          "id": "19",
+          "replyId": "20",
+          "userId": "2",
+          "bookId": "2",
+          "content": "check this for verification 2",
+          "createdAt": "04-07-2025"
+        }
+      ]
+    },
+    {
+      "noteId": "20",
+      "userId": "2",
+      "bookId": "7",
+      "content": "new comment",
+      "createdAt": "04-07-2025"
+    },
+    {
+      "noteId": "21",
+      "userId": "4",
+      "bookId": "7",
+      "content": "okay bcum",
+      "createdAt": "14-07-2025"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Fantasy",
+      "count": 30
+    },
+    {
+      "name": "Science",
+      "count": 18
+    },
+    {
+      "name": "Romance",
+      "count": 25
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Notes Frontend</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+  <h1>Recent Notes</h1>
+  <ul id="notes-list"></ul>
+
+  <h2>Add New Note</h2>
+  <form id="note-form">
+    <input type="text" id="userId" placeholder="User ID" required />
+    <input type="text" id="bookId" placeholder="Book ID" required />
+    <textarea id="content" placeholder="Note content" required></textarea>
+    <button type="submit">Add Note</button>
+  </form>
+  <script type="text/javascript" src="index2.js"></script>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TikTok Comment Section</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <div class="comment-section">
+    <div class="comments-list" id="commentsList">
+      <ul id="notes-list"></ul>
+    </div>
+    <div class="reply-field" id="reply-field">
+      <div id="reply-text"></div>
+      <button class="close-btn" onclick="handleClose()">×</button>
+    </div>
+    <form class="input-area" id="input-area">
+      <div class="input-field">
+        <div class="credential-field">
+          <input type="text" id="username" placeholder="username" readonly />
+          <input type="text" id="userId" placeholder="User ID" readonly />
+          <input type="text" id="bookId" placeholder="Book ID" required />
+        </div>
+        <div class="comment-area">
+          <textarea class="content" id="content" placeholder="Add a comment..." required rows="1"/></textarea>
+          <button id="postbutton" type="submit">Post</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
