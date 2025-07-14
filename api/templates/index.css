@@ -8,6 +8,10 @@ body {
   justify-content: center;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .comment-section {
   display: flex;
   flex-direction: column;
@@ -15,6 +19,7 @@ body {
   background: #1c1c1c;
   width: 100%;
   max-width: 600px;
+  overflow-x: hidden;
 }
 
 .comments-list {
