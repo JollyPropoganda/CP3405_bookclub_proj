@@ -19,7 +19,6 @@
     "zxcvbn": "^4.4.2"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10",
-    "concurrently": "^9.2.0"
+    "nodemon": "^3.1.10"
   }
 }
