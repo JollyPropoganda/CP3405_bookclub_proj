@@ -126,7 +126,7 @@ async function fetchNotes() {
 async function handleFollow(notes_userId, followBtn, showFollow) {
   const username_value = username.value;
 
-  const res = await fetch('http://decent-cody-cp3405-bookclub-043c1a14.koyeb.app/notes/follow', {
+  const res = await fetch('https://decent-cody-cp3405-bookclub-043c1a14.koyeb.app/notes/follow', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ username: username_value, notes_userId })
