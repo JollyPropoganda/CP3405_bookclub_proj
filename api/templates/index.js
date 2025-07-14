@@ -23,7 +23,7 @@ textarea.addEventListener('input', () => {
 
 // Fetch and display recent notes
 async function fetchNotes() {
-  const res = await fetch('http://localhost:5001/notes/recent');
+  const res = await fetch('https://decent-cody-cp3405-bookclub-043c1a14.koyeb.app/notes/recent');
   const notes = await res.json();
 
   userIdInput.value = user_info[1];
@@ -94,7 +94,7 @@ async function fetchNotes() {
 
       // Fetch follow status
 
-      const res2 = await fetch('http://localhost:5001/notes/checkfollow', {
+      const res2 = await fetch('https://decent-cody-cp3405-bookclub-043c1a14.koyeb.app/notes/checkfollow', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username: username_value, notes_userId: note.userId })
@@ -126,7 +126,7 @@ async function fetchNotes() {
 async function handleFollow(notes_userId, followBtn, showFollow) {
   const username_value = username.value;
 
-  const res = await fetch('http://localhost:5001/notes/follow', {
+  const res = await fetch('http://decent-cody-cp3405-bookclub-043c1a14.koyeb.app/notes/follow', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ username: username_value, notes_userId })
@@ -145,7 +145,7 @@ async function postNote() {
   const bookId = document.getElementById('bookId').value;
   const content = document.getElementById('content').value;
 
-  const res = await fetch('http://localhost:5001/notes', {
+  const res = await fetch('https://decent-cody-cp3405-bookclub-043c1a14.koyeb.app/notes', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ userId, bookId, content })
@@ -194,7 +194,7 @@ async function postReply() {
     }
 
     alert("reply clicked, reply status is now: ", reply);
-    const res = await fetch('http://localhost:5001/notes/reply', {
+    const res = await fetch('https://decent-cody-cp3405-bookclub-043c1a14.koyeb.app/notes/reply', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ noteId: replyNoteId, userId, bookId: replyBookId, content })
@@ -232,7 +232,7 @@ function editNote(noteId, bookId, content, id='') {
 
 async function postEdit() {
     console.log( "content:", original_content, "noteId: ", editing_noteId, "replyId: ", editing_replyId)
-    const res = await fetch('http://localhost:5001/notes/edit', {
+    const res = await fetch('https://decent-cody-cp3405-bookclub-043c1a14.koyeb.app/notes/edit', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ content: textarea.value, noteId: editing_noteId, replyId: editing_replyId })
