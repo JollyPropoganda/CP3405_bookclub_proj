@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0 10px;
   font-family: Arial, sans-serif;
   background: #111;
   height: 100vh;
@@ -59,6 +60,21 @@ body {
   display: flex;
   align-items: flex-end;
   gap: 10px;
+}
+
+.credential-field,
+.comment-area {
+  flex-wrap: wrap;
+}
+
+.credential-field input,
+.comment-area textarea,
+.comment-area button {
+  min-width: 0;
+}
+
+.comment-area button {
+  flex-shrink: 0;
 }
 
 .comment-area textarea {
